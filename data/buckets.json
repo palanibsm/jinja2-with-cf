@@ -1,0 +1,10 @@
+[
+ {
+  "bucket_names": [
+    {"value": "sen-2020-04-04-one"},
+    {"value": "sen-2020-04-04-two"},
+    {"value": "sen-2020-04-04-three"}
+  ],
+  "aws_account_number": "039335081646"
+ }
+]

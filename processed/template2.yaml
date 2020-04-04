@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Simple S3 bucket for 039335081646
+
+Resources:
+  
+  S3Bucket: sen-2020-04-04-one:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: jina-sen-2020-04-04-one
+  
+  S3Bucket: sen-2020-04-04-two:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: jina-sen-2020-04-04-two
+  
+  S3Bucket: sen-2020-04-04-three:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: jina-sen-2020-04-04-three
+  

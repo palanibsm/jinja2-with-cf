@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Simple S3 bucket for {{ aws_account_number }}
+
+Resources:
+  {% for item in bucket_names %}
+  S3Bucket: {{ item.value }}:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: jina-{{ item.value }}
+  {% endfor %}
